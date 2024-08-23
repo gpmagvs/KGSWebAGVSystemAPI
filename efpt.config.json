@@ -1,0 +1,138 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "WebAGVSystemContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "KGSWebAGVSystemAPI",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[AGVInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AGVRemoteSetting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AlarmLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BatterySet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ExecutingSkdTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ExecutingTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InstrumentMeasureResult]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MapComparison]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MeasureInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OccurringAlarm]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PathInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PMHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PMSetting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RunStatusChange]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SkdTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SMSPhoneNo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Task]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TrackHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TrafficTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ver]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VMSLogicSetting]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
