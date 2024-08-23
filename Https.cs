@@ -44,7 +44,7 @@ namespace KGSWebAGVSystemAPI
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine($"GET Requst({apiRoute}) Error : {ex.Message}");
                 throw ex;
             }
         }
