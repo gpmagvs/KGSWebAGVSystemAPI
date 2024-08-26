@@ -8,8 +8,11 @@ namespace KGSWebAGVSystemAPI
 {
     public static class Globals
     {
-        public static string KGSHotIP { get; set; } = "192.168.0.3";
-        public static int KGSHotPort { get; set; } = 5216;
+
+        public static string KGSLogicIniPath { get; set; } = @"C:\CST\ini\Logic.ini";
+
+        public static string KGSHotIP { get; set; } = "192.168.0.123";
+        public static int KGSHotPort { get; set; } = 6600;
         public static string KGSWebAGVSystemAPI => $"http://{KGSHotIP}:{KGSHotPort}";
         public static CookiesInfo cookieInfo { get; set; } = new CookiesInfo();
     }

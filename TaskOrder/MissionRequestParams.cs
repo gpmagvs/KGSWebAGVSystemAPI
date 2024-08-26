@@ -11,12 +11,12 @@ namespace KGSWebAGVSystemAPI.TaskOrder
         public string CarName { get; set; } = "";
         public int AGVID { get; set; }
         public string Action { get; set; } = "";
-        public int FromStation { get; set; }
+        public string FromStation { get; set; }
         public int FromSlot { get; set; }
-        public int ToStation { get; set; }
+        public string ToStation { get; set; }
         public int ToSlot { get; set; }
         public int Priority { get; set; }
-        public int RepeatTime { get; set; }
+        public int RepeatTime { get; set; } = 1;
         public string CSTID { get; set; } = "";
         public int CSTType { get; set; }
 

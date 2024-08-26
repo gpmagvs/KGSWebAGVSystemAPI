@@ -11,12 +11,10 @@ namespace KGSWebAGVSystemAPI
     {
         public static async Task<string> GET(string apiRoute, int timeout = 3)
         {
+            var responseString = "";
+            var baseAddress = new Uri(Globals.KGSWebAGVSystemAPI);
             try
             {
-
-                var responseString = "";
-                var baseAddress = new Uri(Globals.KGSWebAGVSystemAPI);
-
                 var cookieContainer = new CookieContainer();
                 cookieContainer.Add(baseAddress, new Cookie("connect.sid", Globals.cookieInfo.sid));
                 cookieContainer.Add(baseAddress, new Cookie("io", Globals.cookieInfo.io));
@@ -44,7 +42,7 @@ namespace KGSWebAGVSystemAPI
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"GET Requst({apiRoute}) Error : {ex.Message}");
+                Console.WriteLine($"GET Requst({baseAddress.ToString()}{apiRoute}) Error : {ex.Message}");
                 throw ex;
             }
         }
