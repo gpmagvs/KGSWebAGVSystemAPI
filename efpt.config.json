@@ -1,5 +1,5 @@
 ﻿{
-   "CodeGenerationMode": 3,
+   "CodeGenerationMode": 2,
    "ContextClassName": "WebAGVSystemContext",
    "ContextNamespace": null,
    "FilterSchemas": false,
@@ -87,10 +87,6 @@
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[TrackHistory]",
-         "ObjectType": 0
-      },
-      {
          "Name": "[dbo].[TrafficTask]",
          "ObjectType": 0
       },
@@ -103,11 +99,11 @@
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[ver]",
+         "Name": "[dbo].[UserLoginLog]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[VMSLogicSetting]",
+         "Name": "[dbo].[ver]",
          "ObjectType": 0
       }
    ],
@@ -115,14 +111,14 @@
    "UncountableWords": null,
    "UseAsyncStoredProcedureCalls": true,
    "UseBoolPropertiesWithoutDefaultSql": false,
-   "UseDatabaseNames": false,
+   "UseDatabaseNames": true,
    "UseDateOnlyTimeOnly": false,
    "UseDbContextSplitting": false,
    "UseDecimalDataAnnotationForSprocResult": true,
    "UseFluentApiOnly": true,
    "UseHandleBars": false,
    "UseHierarchyId": false,
-   "UseInflector": true,
+   "UseInflector": false,
    "UseLegacyPluralizer": false,
    "UseManyToManyEntity": false,
    "UseNoDefaultConstructor": false,

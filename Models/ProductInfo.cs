@@ -3,41 +3,26 @@
 using System;
 using System.Collections.Generic;
 
-namespace KGSWebAGVSystemAPI.Models;
-
-public partial class ProductInfo
+namespace KGSWebAGVSystemAPI.Models
 {
-    public string CommandId { get; set; }
-
-    public string Id { get; set; }
-
-    public DateTime ReceiveTime { get; set; }
-
-    public string PartId { get; set; }
-
-    public string LotId { get; set; }
-
-    public string RecipeId { get; set; }
-
-    public string LayerNo { get; set; }
-
-    public string Frame { get; set; }
-
-    public string Stamp { get; set; }
-
-    public DateTime? InRackLdtime { get; set; }
-
-    public DateTime? OvenLdtime { get; set; }
-
-    public DateTime? OvenUldtime { get; set; }
-
-    public DateTime? OutRackUldtime { get; set; }
-
-    public string OutRackOpid { get; set; }
-
-    public int? ProcessResultOfSystem { get; set; }
-
-    public int? ProcessResultOfOutRack { get; set; }
-
-    public string SerialId { get; set; }
+    public partial class ProductInfo
+    {
+        public string ID { get; set; }
+        public string CommandID { get; set; }
+        public string PartID { get; set; }
+        public string LotID { get; set; }
+        public string RecipeID { get; set; }
+        public string LayerNo { get; set; }
+        public string Frame { get; set; }
+        public string Stamp { get; set; }
+        public DateTime? Receive_Time { get; set; }
+        public DateTime? InRackLDTime { get; set; }
+        public DateTime? OvenLDTime { get; set; }
+        public DateTime? OvenULDTime { get; set; }
+        public DateTime? OutRackULDTime { get; set; }
+        public string OutRackOPID { get; set; }
+        public int? ProcessResultOfSystem { get; set; }
+        public int? ProcessResultOfOutRack { get; set; }
+        public string SerialID { get; set; }
+    }
 }

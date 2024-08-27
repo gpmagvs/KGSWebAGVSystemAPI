@@ -5,9 +5,10 @@ using System.Collections.Generic;
 
 namespace KGSWebAGVSystemAPI.Models
 {
-    public partial class SMSPhoneNo
+    public partial class UserLoginLog
     {
-        public string PhoneNumber { get; set; }
-        public int? No { get; set; }
+        public string UserName { get; set; }
+        public DateTime DateTime { get; set; }
+        public string Operation { get; set; }
     }
 }

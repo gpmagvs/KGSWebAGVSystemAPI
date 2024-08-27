@@ -3,11 +3,11 @@
 using System;
 using System.Collections.Generic;
 
-namespace KGSWebAGVSystemAPI.Models;
-
-public partial class UserGroup
+namespace KGSWebAGVSystemAPI.Models
 {
-    public string UserGroup1 { get; set; }
-
-    public string Functions { get; set; }
+    public partial class UserGroup
+    {
+        public string UserGroup1 { get; set; }
+        public string Functions { get; set; }
+    }
 }

@@ -3,11 +3,11 @@
 using System;
 using System.Collections.Generic;
 
-namespace KGSWebAGVSystemAPI.Models;
-
-public partial class MapComparison
+namespace KGSWebAGVSystemAPI.Models
 {
-    public int? Agvid { get; set; }
-
-    public double? RateSetting { get; set; }
+    public partial class MapComparison
+    {
+        public int? AGVID { get; set; }
+        public double? RateSetting { get; set; }
+    }
 }

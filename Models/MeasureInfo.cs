@@ -3,21 +3,16 @@
 using System;
 using System.Collections.Generic;
 
-namespace KGSWebAGVSystemAPI.Models;
-
-public partial class MeasureInfo
+namespace KGSWebAGVSystemAPI.Models
 {
-    public string CommandId { get; set; }
-
-    public DateTime? ReceiveTime { get; set; }
-
-    public string Bay { get; set; }
-
-    public string Points { get; set; }
-
-    public int? InPoint { get; set; }
-
-    public int? OutPoint { get; set; }
-
-    public string SuccessPoints { get; set; }
+    public partial class MeasureInfo
+    {
+        public string CommandID { get; set; }
+        public DateTime? Receive_Time { get; set; }
+        public string Bay { get; set; }
+        public string Points { get; set; }
+        public int? InPoint { get; set; }
+        public int? OutPoint { get; set; }
+        public string SuccessPoints { get; set; }
+    }
 }

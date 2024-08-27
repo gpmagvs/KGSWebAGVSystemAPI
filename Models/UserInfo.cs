@@ -3,19 +3,15 @@
 using System;
 using System.Collections.Generic;
 
-namespace KGSWebAGVSystemAPI.Models;
-
-public partial class UserInfo
+namespace KGSWebAGVSystemAPI.Models
 {
-    public string UserName { get; set; }
-
-    public string UserPassword { get; set; }
-
-    public string UserGroup { get; set; }
-
-    public int LogoutTime { get; set; }
-
-    public string Description { get; set; }
-
-    public DateTime? CreateTime { get; set; }
+    public partial class UserInfo
+    {
+        public string UserName { get; set; }
+        public string UserPassword { get; set; }
+        public string UserGroup { get; set; }
+        public int LogoutTime { get; set; }
+        public string Description { get; set; }
+        public DateTime? CreateTime { get; set; }
+    }
 }

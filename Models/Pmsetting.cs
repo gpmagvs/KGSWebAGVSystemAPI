@@ -3,13 +3,12 @@
 using System;
 using System.Collections.Generic;
 
-namespace KGSWebAGVSystemAPI.Models;
-
-public partial class Pmsetting
+namespace KGSWebAGVSystemAPI.Models
 {
-    public int Agvid { get; set; }
-
-    public int? Pmcount { get; set; }
-
-    public int? DoneTaskCount { get; set; }
+    public partial class PMSetting
+    {
+        public int AGVID { get; set; }
+        public int? PMCount { get; set; }
+        public int? DoneTaskCount { get; set; }
+    }
 }

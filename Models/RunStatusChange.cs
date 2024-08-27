@@ -3,13 +3,12 @@
 using System;
 using System.Collections.Generic;
 
-namespace KGSWebAGVSystemAPI.Models;
-
-public partial class RunStatusChange
+namespace KGSWebAGVSystemAPI.Models
 {
-    public DateTime ChangeTime { get; set; }
-
-    public int Agvid { get; set; }
-
-    public int AgvmainStatus { get; set; }
+    public partial class RunStatusChange
+    {
+        public DateTime ChangeTime { get; set; }
+        public int AGVID { get; set; }
+        public int AGVMainStatus { get; set; }
+    }
 }

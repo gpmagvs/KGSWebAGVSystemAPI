@@ -3,13 +3,12 @@
 using System;
 using System.Collections.Generic;
 
-namespace KGSWebAGVSystemAPI.Models;
-
-public partial class AgvremoteSetting
+namespace KGSWebAGVSystemAPI.Models
 {
-    public int Agvid { get; set; }
-
-    public int? ChargingDelaySecTime { get; set; }
-
-    public int? BypassCheckCargoStatus { get; set; }
+    public partial class AGVRemoteSetting
+    {
+        public int? AGVID { get; set; }
+        public int? ChargingDelaySecTime { get; set; }
+        public int? BypassCheckCargoStatus { get; set; }
+    }
 }

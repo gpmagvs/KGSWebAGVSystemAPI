@@ -3,41 +3,25 @@
 using System;
 using System.Collections.Generic;
 
-namespace KGSWebAGVSystemAPI.Models;
-
-public partial class Agvinfo
+namespace KGSWebAGVSystemAPI.Models
 {
-    public int Agvid { get; set; }
-
-    public string Agvname { get; set; }
-
-    public int AgvmainStatus { get; set; }
-
-    public int AgvsubStatus { get; set; }
-
-    public int Agvmode { get; set; }
-
-    public int? CurrentPos { get; set; }
-
-    public string DoTaskName { get; set; }
-
-    public string Cstid { get; set; }
-
-    public double? Battery { get; set; }
-
-    public int? AlarmCode { get; set; }
-
-    public string AlarmDescription { get; set; }
-
-    public string E82vehicleState { get; set; }
-
-    public double? Battery2 { get; set; }
-
-    public int? ForkHeight { get; set; }
-
-    public int? ProcessResult { get; set; }
-
-    public int? AgvconnectStatus { get; set; }
-
-    public string Area { get; set; }
+    public partial class AGVInfo
+    {
+        public int AGVID { get; set; }
+        public string AGVName { get; set; }
+        public int AGVMainStatus { get; set; }
+        public int AGVSubStatus { get; set; }
+        public int AGVMode { get; set; }
+        public int? CurrentPos { get; set; }
+        public string DoTaskName { get; set; }
+        public string CSTID { get; set; }
+        public double? Battery { get; set; }
+        public double? Battery2 { get; set; }
+        public int? AlarmCode { get; set; }
+        public string AlarmDescription { get; set; }
+        public string E82VehicleState { get; set; }
+        public int? ForkHeight { get; set; }
+        public int? ProcessResult { get; set; }
+        public int? AGVConnectStatus { get; set; }
+    }
 }

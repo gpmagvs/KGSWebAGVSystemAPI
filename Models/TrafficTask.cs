@@ -3,31 +3,21 @@
 using System;
 using System.Collections.Generic;
 
-namespace KGSWebAGVSystemAPI.Models;
-
-public partial class TrafficTask
+namespace KGSWebAGVSystemAPI.Models
 {
-    public int Agvid { get; set; }
-
-    public string StartPos { get; set; }
-
-    public string TargetPos { get; set; }
-
-    public string FullPath { get; set; }
-
-    public double Weight { get; set; }
-
-    public string ShortPath { get; set; }
-
-    public string InvolvePoint { get; set; }
-
-    public string BookingPath { get; set; }
-
-    public string CrossPoint { get; set; }
-
-    public int CrossAgvid { get; set; }
-
-    public string Message { get; set; }
-
-    public string MessageCh { get; set; }
+    public partial class TrafficTask
+    {
+        public int AGVID { get; set; }
+        public string StartPos { get; set; }
+        public string TargetPos { get; set; }
+        public string FullPath { get; set; }
+        public double Weight { get; set; }
+        public string ShortPath { get; set; }
+        public string InvolvePoint { get; set; }
+        public string BookingPath { get; set; }
+        public string CrossPoint { get; set; }
+        public int CrossAGVID { get; set; }
+        public string Message { get; set; }
+        public string MessageCH { get; set; }
+    }
 }

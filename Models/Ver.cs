@@ -3,9 +3,10 @@
 using System;
 using System.Collections.Generic;
 
-namespace KGSWebAGVSystemAPI.Models;
-
-public partial class Ver
+namespace KGSWebAGVSystemAPI.Models
 {
-    public string Version { get; set; }
+    public partial class ver
+    {
+        public string version { get; set; }
+    }
 }
