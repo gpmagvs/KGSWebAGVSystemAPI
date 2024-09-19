@@ -170,9 +170,9 @@ namespace KGSWebAGVSystemAPI.Models
                     .HasMaxLength(30)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FromStationName)
-                    .HasMaxLength(30)
-                    .IsUnicode(false);
+                //entity.Property(e => e.FromStationName)
+                //    .HasMaxLength(30)
+                //    .IsUnicode(false);
 
                 entity.Property(e => e.Receive_Time).HasColumnType("datetime");
 
@@ -182,9 +182,9 @@ namespace KGSWebAGVSystemAPI.Models
                     .HasMaxLength(30)
                     .IsUnicode(false);
 
-                entity.Property(e => e.ToStationName)
-                    .HasMaxLength(30)
-                    .IsUnicode(false);
+                //entity.Property(e => e.ToStationName)
+                //    .HasMaxLength(30)
+                //    .IsUnicode(false);
             });
 
             modelBuilder.Entity<InstrumentMeasureResult>(entity =>
@@ -489,9 +489,9 @@ namespace KGSWebAGVSystemAPI.Models
                     .HasMaxLength(30)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FromStationName)
-                    .HasMaxLength(30)
-                    .IsUnicode(false);
+                //entity.Property(e => e.FromStationName)
+                //    .HasMaxLength(30)
+                //    .IsUnicode(false);
 
                 entity.Property(e => e.Receive_Time).HasColumnType("datetime");
 
@@ -501,9 +501,9 @@ namespace KGSWebAGVSystemAPI.Models
                     .HasMaxLength(30)
                     .IsUnicode(false);
 
-                entity.Property(e => e.ToStationName)
-                    .HasMaxLength(30)
-                    .IsUnicode(false);
+                //entity.Property(e => e.ToStationName)
+                //    .HasMaxLength(30)
+                //    .IsUnicode(false);
 
                 entity.Property(e => e.TotalTime)
                     .HasMaxLength(30)

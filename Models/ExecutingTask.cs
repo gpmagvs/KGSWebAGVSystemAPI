@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace KGSWebAGVSystemAPI.Models
 {
@@ -14,8 +15,10 @@ namespace KGSWebAGVSystemAPI.Models
         public int? ToStationId { get; set; }
         public string FromStation { get; set; }
         public string ToStation { get; set; }
-        public string FromStationName { get; set; }
-        public string ToStationName { get; set; }
+        //[NotMapped]
+        //public string FromStationName { get; set; }
+        //[NotMapped]
+        //public string ToStationName { get; set; }
         public string ActionType { get; set; }
         public int AGVID { get; set; }
         public string CSTID { get; set; }
