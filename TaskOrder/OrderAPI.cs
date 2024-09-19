@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KGSWebAGVSystemAPI.User;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,10 +16,17 @@ namespace KGSWebAGVSystemAPI.TaskOrder
             return responseStr;
         }
 
-        public static async Task CancelTask(string taskID)
+        public static async ValueTask<string> CancelTask(string taskID)
         {
+
+            if (Globals.cookieInfo.sid == null || Globals.cookieInfo.io == null)
+            {
+                await Auth.LoginAndUpdateCookieStore("gpm", "12345678");
+            }
+
             string responseStr = await Https.GET($"/mission/cancel?TaskName={taskID}");
             Console.WriteLine($"Resonpse Of CancelTask ={responseStr}");
+            return responseStr;
         }
     }
 }
