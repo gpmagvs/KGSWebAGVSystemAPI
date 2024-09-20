@@ -21,7 +21,7 @@ namespace KGSWebAGVSystemAPI.TaskOrder
 
             if (Globals.cookieInfo.sid == null || Globals.cookieInfo.io == null)
             {
-                await Auth.LoginAndUpdateCookieStore("gpm", "12345678");
+                await Auth.LoginAndUpdateCookieStore("ENG", "12345678");
             }
 
             string responseStr = await Https.GET($"/mission/cancel?TaskName={taskID}");
