@@ -8,6 +8,32 @@
 		<FileVersion>1.4.0</FileVersion>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <ShouldCreateLogs>True</ShouldCreateLogs>
+	  <AdvancedSettingsExpanded>False</AdvancedSettingsExpanded>
+	  <UpdateAssemblyVersion>True</UpdateAssemblyVersion>
+	  <UpdateAssemblyFileVersion>True</UpdateAssemblyFileVersion>
+	  <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
+	  <AssemblyVersionSettings>None.None.None.None</AssemblyVersionSettings>
+	  <UpdatePackageVersion>False</UpdatePackageVersion>
+	  <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+	  <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+	  <AssemblyFileVersionSettings>None.None.None.None</AssemblyFileVersionSettings>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <ShouldCreateLogs>True</ShouldCreateLogs>
+	  <AdvancedSettingsExpanded>False</AdvancedSettingsExpanded>
+	  <UpdateAssemblyVersion>True</UpdateAssemblyVersion>
+	  <UpdateAssemblyFileVersion>True</UpdateAssemblyFileVersion>
+	  <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
+	  <AssemblyVersionSettings>None.None.None.None</AssemblyVersionSettings>
+	  <UpdatePackageVersion>False</UpdatePackageVersion>
+	  <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+	  <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+	  <AssemblyFileVersionSettings>None.None.None.None</AssemblyFileVersionSettings>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.25" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.25" />
